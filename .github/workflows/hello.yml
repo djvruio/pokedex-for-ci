@@ -15,3 +15,4 @@ jobs:
       - name: Tell me the Date
         run: date
       - run: ls -l
+      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
